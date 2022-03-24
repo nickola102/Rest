@@ -21,7 +21,7 @@
         "minLength": 1
       },
       "number": {
-        "type": "integer",
+        "type": "string",
         "pattern": "^•• \\d{4}$"
       },
       "balance": {
@@ -29,11 +29,9 @@
         "default": 0
       },
       "currency": {
-        "type": "string"
-      },
-      "currency_type": {
+        "type": "string",
         "enum": [
-          "RUB",
+          "RUR",
           "USD"
         ]
       }
